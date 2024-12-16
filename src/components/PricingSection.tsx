@@ -20,7 +20,7 @@ const pricingPlans = [
       'Design-Auffrischung',
       'Mobile Optimierung',
       'Performance-Optimierung',
-      'Basis SEO-Verbesserungen',
+      'Individuelle Umsetzung (kein Template)',
     ],
     icon: Code,
   },
