@@ -15,25 +15,25 @@ const pricingPlans = [
   {
     title: 'Website Refresh',
     price: '200-500€',
-    description: 'Perfekt für Unternehmen, die einen modernen Touch benötigen',
+    description: 'Für kleine Webseiten mit modernem, individuellem Design ohne Templates',
     features: [
-      'Maßgeschneidertes Design',
+      'Maßgeschneidertes, templatefreies Design',
       'Mobile Optimierung',
       'Performance-Optimierung',
-      'Individuelle Umsetzung (kein Template)',
+      'Bis zu 5 Seiten',
     ],
     icon: Code,
   },
   {
     title: 'Komplette Überarbeitung',
     price: '500-1500€',
-    description: 'Umfassende Website-Modernisierung mit KI-Integration',
+    description: 'Für mittelgroße Webseiten mit interaktiven Elementen und erster KI-Unterstützung',
     features: [
-      'Maßgeschneidertes Design',
-      'KI-gestützte Funktionen',
-      'Erweiterte SEO-Optimierung',
-      'Content-Management-System',
-      'Analytics-Integration',
+      'Maßgeschneidertes, templatefreies Design',
+      'Interaktive Features (z.B. Galerien, Formulare)',
+      'Grundlegende KI-Funktionen',
+      'Bis zu 10 Seiten',
+      'Erweiterte Analyse-Tools',
     ],
     icon: Cpu,
     featured: true,
@@ -41,14 +41,13 @@ const pricingPlans = [
   {
     title: 'Custom Development',
     price: 'ab 1500€',
-    description: 'Individuelle Website-Entwicklung nach Ihren Vorstellungen',
+    description: 'Für umfangreiche, komplexe Webseiten mit erweiterter KI-Integration und individueller Funktionalität',
     features: [
-      'Maßgeschneidertes Design',
-      'Erweiterte KI-Integration',
-      'Full-Stack-Entwicklung',
-      'E-Commerce-Funktionen',
-      'Individuelle Features',
-      'Fortlaufender Support',
+      'Maßgeschneidertes, templatefreies Design',
+      'Umfangreiche Interaktionen und Sonderfunktionen',
+      'Erweiterte KI-Integration (z.B. Chatbots, personalisierte Empfehlungen)',
+      'Mehr als 10 Seiten',
+      'Fortlaufender Support und Skalierbarkeit',
     ],
     icon: Layers,
   },
@@ -112,7 +111,7 @@ export function PricingSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-400 max-w-2xl mx-auto"
           >
-            Wählen Sie das perfekte Paket für Ihre Anforderungen
+            Maßgeschneiderte, templatefreie Webseiten – je umfangreicher und interaktiver, desto mehr Möglichkeiten bieten wir.
           </motion.p>
         </div>
 
