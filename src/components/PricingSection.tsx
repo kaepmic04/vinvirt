@@ -17,7 +17,7 @@ const pricingPlans = [
     price: '200-500€',
     description: 'Perfekt für Unternehmen, die einen modernen Touch benötigen',
     features: [
-      'Design-Auffrischung',
+      'Maßgeschneidertes Design',
       'Mobile Optimierung',
       'Performance-Optimierung',
       'Individuelle Umsetzung (kein Template)',
@@ -29,7 +29,7 @@ const pricingPlans = [
     price: '500-1500€',
     description: 'Umfassende Website-Modernisierung mit KI-Integration',
     features: [
-      'Vollständige Design-Überarbeitung',
+      'Maßgeschneidertes Design',
       'KI-gestützte Funktionen',
       'Erweiterte SEO-Optimierung',
       'Content-Management-System',
